@@ -125,20 +125,20 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 ### Hospital 
 |H_ID| Hospital Name | Phone No      |  Address     |No. of Beds     | 
 |---:| ------------- |:-------------:| -------------|---------------:|
-|101 | Siddharth     | 08-12-1999    | 24           |No              |
-|102 | Kajal         | 13-01-2001    | 21           |Yes             |
-|103 | Dabang        | 22-01-1992    | 30           |Yes             | 
+|101 | Siddharth     | 08121999      | xyyc         |23              |
+|102 | Nnandu        | 13012001      | yrtf         |56              |
+|103 | Dabang        | 22011992      | edbe         |90              | 
 
 ### Department 
 |D_ID|Department Name |HOD            | Phone No.    |
 |---:| -------------- |:-------------:| -------------|
-|101 | Siddharth      | 08-12-1999    | 24           |
-|102 | Kajal          | 13-01-2001    | 21           |
-|103 | Dabang         | 22-01-1992    | 30           |
+|101 | OPD            | Ram           | 56724        |
+|102 | IP             | Kamal         | 76521        |
+|103 |X-ray           | Rinku         | 30647        |
 
 ### Procedure 
 |Pro._ID| Doctor ID          |Patient ID    | Number        | Duration       |
 |------:| ------------------:|------------- |:-------------:| ---------------|
-|898    | Blood Test         |104           | 1009          | 07-09-2023 2pm | 
-|876    | MRI                |103           | 1005          | 14-05-2023 4pm |
-|106    | EEG                |100           | 1004          | 30-12-2023 5pm |
+|898    | 1001               |104           | 1009          | 2hr.           | 
+|876    | 1002               |103           | 1005          | 4hr.           |
+|106    |  1003              |100           | 1004          | 6hr.           |
