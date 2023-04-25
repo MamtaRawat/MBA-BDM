@@ -21,7 +21,9 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 
 ## Attributes 
 1.Patient- Patient ID, Patient Nmae, DOB, Age, Medical History, Phone No
+
 2.Doctor- Doctor ID, Name, Specilization, Phone No.
+
 3.Appointment- Appointment ID, Doctor ID, Date&Time
 4.Medical Test- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
 5.Medical Report- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
