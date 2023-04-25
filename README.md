@@ -26,15 +26,45 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
            Age,
            Medical History, 
            Phone No. 
-2.Doctor- Doctor ID, Name, Specilization, Phone No.
-3.Appointment- Appointment ID, Doctor ID, Date&Time
-4.Medical Test- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
-5.Medical Report- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
-6.Medication- Medication ID, Medication Name, Patient ID, Dosage
-7.Insurance- Insurance ID, Policy ID, Company Name, Address
-8.Hospital- Hospital ID, Hospital Name, Phone No, Address, No. of Beds 
-9.Department- Department ID, Department Name, HOD, Phone No.
-10.Procedure- Producdure ID, Doctor ID, Patient ID, Number, Duration 
+2.Doctor- Doctor ID, 
+          Name, 
+          Specilization, 
+          Phone No.
+3.Appointment- Appointment ID, 
+               Doctor ID, 
+               Date&Time
+4.Medical Test- Test ID, 
+                Test Name, 
+                Patient ID, 
+                Doctor ID, 
+                Date & Time
+5.Medical Report- Test ID, 
+                  Test Name, 
+                  Patient ID,
+                  Doctor ID,
+                  Date & Time
+6.Medication- Medication ID, 
+              Medication Name, 
+              Patient ID, 
+              Dosage
+7.Insurance- Insurance ID, 
+             Policy ID, 
+             Company Name, 
+             Address
+8.Hospital- Hospital ID, 
+            Hospital Name, 
+            Phone No, 
+            Address, 
+            No. of Beds 
+9.Department- Department ID, 
+              Department Name, 
+              HOD, 
+              Phone No.
+10.Procedure- Producdure ID, 
+              Doctor ID, 
+              Patient ID, 
+              Number, 
+              Duration 
 
 ## Entity-Relationship (ER) diagram for Health Care Industry
 
