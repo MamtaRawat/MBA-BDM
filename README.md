@@ -20,12 +20,20 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 10. Procedure 
 
 ## Attributes 
-
+1.Patient- Patient ID, Patient Nmae, DOB, Age, Medical History, Phone No
+2.Doctor- Doctor ID, Name, Specilization, Phone No.
+3.Appointment- Appointment ID, Doctor ID, Date&Time
+4.Medical Test- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
+5.Medical Report- Test ID, Test Name, Patient ID, Doctor ID, Date & Time
+6.Medication- Medication ID, Medication Name, Patient ID, Dosage
+7.Insurance- Insurance ID, Policy ID, Company Name, Address
+8.Hospital- Hospital ID, Hospital Name, Phone No, Address, No. of Beds 
+9.Department- Department ID, Department Name, HOD, Phone No.
+10.Procedure- Producdure ID, Doctor ID, Patient ID, Number, Duration 
 
 ## Entity-Relationship (ER) diagram for Health Care Industry
 
-![BDM CIA1 drawio (2)](https://user-images.githubusercontent.com/91964898/234314141-140e3345-026a-40a6-aa1b-7a86277eb5d4.png)
-
+![BDM CIA1 drawio](https://user-images.githubusercontent.com/91964898/234297675-4d80d4ba-f6cb-4fa7-9f8e-cac42b16fed5.png)
 
 
 ## Converting the ER diagram Into Table 
@@ -66,3 +74,36 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 |678    | Septsil            |100           | 1004          | two       |
 
 ### Medical Report 
+|P_ID| Name          | DOB           | Age          |Medical History | Phone_No |
+|---:| ------------- |:-------------:| -------------|---------------:|----------|
+|101 | Siddharth     | 08-12-1999    | 24           |No              | 673567335| 
+|102 | Kajal         | 13-01-2001    | 21           |Yes             | 535457535|
+|103 | Dabang        | 22-01-1992    | 30           |Yes             | 677557535|
+
+### Insurance
+|I_ID|Policy ID       | Doctor ID     | Company Name |Address         | 
+|---:| -------------- |:-------------:| -------------|---------------:|
+|101 | Siddharth      | 08-12-1999    | 24           |No              | 
+|102 | Kajal          | 13-01-2001    | 21           |Yes             | 
+|103 | Dabang         | 22-01-1992    | 30           |Yes             | 
+
+### Hospital 
+|H_ID| Hospital Name | Phone No      |  Address     |No. of Beds     | 
+|---:| ------------- |:-------------:| -------------|---------------:|
+|101 | Siddharth     | 08-12-1999    | 24           |No              |
+|102 | Kajal         | 13-01-2001    | 21           |Yes             |
+|103 | Dabang        | 22-01-1992    | 30           |Yes             | 
+
+### Department 
+|D_ID|Department Name |HOD            | Phone No.    |
+|---:| -------------- |:-------------:| -------------|
+|101 | Siddharth      | 08-12-1999    | 24           |
+|102 | Kajal          | 13-01-2001    | 21           |
+|103 | Dabang         | 22-01-1992    | 30           |
+
+### Procedure 
+|Pro._ID| Doctor ID          |Patient ID    | Number        | Duration       |
+|------:| ------------------:|------------- |:-------------:| ---------------|
+|898    | Blood Test         |104           | 1009          | 07-09-2023 2pm | 
+|876    | MRI                |103           | 1005          | 14-05-2023 4pm |
+|106    | EEG                |100           | 1004          | 30-12-2023 5pm |
