@@ -118,9 +118,9 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 ### Insurance
 |I_ID|Policy ID       | Doctor ID     | Company Name |Address         | 
 |---:| -------------- |:-------------:| -------------|---------------:|
-|101 | Siddharth      | 08-12-1999    | 24           |No              | 
-|102 | Kajal          | 13-01-2001    | 21           |Yes             | 
-|103 | Dabang         | 22-01-1992    | 30           |Yes             | 
+|101 | 1259           | 1001          | xyz          |No              | 
+|102 | 2345           | 1002          | abc          |Yes             | 
+|103 | 5432           | 1003          | xxx          |Yes             | 
 
 ### Hospital 
 |H_ID| Hospital Name | Phone No      |  Address     |No. of Beds     | 
