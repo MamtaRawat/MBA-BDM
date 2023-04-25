@@ -24,7 +24,7 @@ An entity-relationship (ER) diagram is a powerful tool for modeling the data and
 
 ## Entity-Relationship (ER) diagram for Health Care Industry
 
-![BDM CIA1 drawio](https://user-images.githubusercontent.com/91964898/234297675-4d80d4ba-f6cb-4fa7-9f8e-cac42b16fed5.png)
+![BDM CIA1 drawio (1)](https://user-images.githubusercontent.com/91964898/234312711-bb52cfc7-90d7-430b-a211-003f13b13154.png)
 
 
 ## Converting the ER diagram Into Table 
